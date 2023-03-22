@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   margin-top: 10rem;
+}
+.card{
+    padding: 1.5rem;
+    width: 350px;
+    border-radius: 10px;
+    background: hsl(216, 50%, 16%);
+}
+.card .nft{
+    width: 300px;
+    border-radius: 10px;
+}
+.card h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.card .description{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.info .left{
+    color: hsl(178, 100%, 50%);
+    margin-right: 7rem;
+}
+.info .right{
+    color:hsl(215, 51%, 70%);
+}
+.ligne{
+    width: 300px;
+    height: 1px;
+    margin-top: 1.5rem;
+    background: hsl(215, 32%, 27%);
+}
+.user{
+    display: flex;
+    margin-top: 1rem;
+}
+.user img{
+    width: 32px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.user p{
+    margin-left: 1rem;
+    margin-top: .5rem;
+    color: hsl(215, 51%, 70%);
+}
+.user span{
+    color: hsl(0, 0%, 100%);
+}
